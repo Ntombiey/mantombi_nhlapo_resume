@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b7c1c7;
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    padding: 30px;
+}
+
+section:nth-child(odd) {
+    background-color: #70787c;
+}
+
+section:nth-child(odd) a {
+    color: rgb(209, 209, 209);
+}
+
+section h2 {
+    text-transform: uppercase;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    background-color: #202527;
+    padding: 50px 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 30px;
+    background-color: #2f3e46;
+    margin: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    padding-right: 8px;
+}
+
+#navbar ul li a {
+    color:#dad6d6 !important;
+}
+
+#header {
+    text-align: center;
+    background-color: #b7c1c7;
+}
+
+#header .profile-picture {
+    background-image: url('../images/IMG_20200525_121219.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px gray;
+}
